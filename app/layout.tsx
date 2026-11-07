@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     icon: '/assets/images/favicon_icon_1794080908585.jpg',
     apple: '/assets/images/favicon_icon_1794080908585.jpg',
   },
+  verification: {
+    google: 'ZS7Ji6uzAvCK4ZWV-kfNVwciVcpp0w9o9JPaGPKRc4Q',
+  },
 };
 
 const jsonLd = {
