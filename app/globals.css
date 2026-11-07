@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-playfair), serif;
+  --font-body: var(--font-manrope), sans-serif;
+  
+  --color-brand-primary: #1B4332; /* Deep Emerald */
+  --color-brand-secondary: #D4A373; /* Muted Sand */
+  --color-brand-accent: #BC6C25; /* Warm Earth */
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}

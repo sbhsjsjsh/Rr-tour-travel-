@@ -1,0 +1,6 @@
+{
+  "name": "RR Travel Bangalore",
+  "description": "Premium tour and travel agency specializing in curated nature and heritage experiences across Karnataka and beyond.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
